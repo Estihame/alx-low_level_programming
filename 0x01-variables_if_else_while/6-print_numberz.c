@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char baseten;
+	int baseten;
 
 	for (baseten = '0'; baseten <= '9'; baseten++)
 {
