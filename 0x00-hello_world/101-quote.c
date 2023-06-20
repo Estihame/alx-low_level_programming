@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point for this code
  *
@@ -6,11 +7,6 @@
  */
 int main(void)
 {
-	char meg;
-
-	for (meg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	putchar (meg);
-	{
+	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout); 
 	return (1);
-}
 }
