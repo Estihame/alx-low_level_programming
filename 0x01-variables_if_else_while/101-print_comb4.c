@@ -7,7 +7,6 @@
 int main(void)
 {
 int firstnum, secondnum, thirdnum;
-	
 	for (firstnum = 0; firstnum <= 7; firstnum++)
 {
 	for (secondnum = firstnum + 1; secondnum <= 8; secondnum++)
