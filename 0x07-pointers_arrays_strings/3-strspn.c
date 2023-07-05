@@ -22,6 +22,7 @@ c = 1;
 }
 }
 if (c == 0)
-return (0);
+return (v);
 }
+return (0);
 }
