@@ -8,8 +8,7 @@
  * @owner: Third element
  *
  * Description: Longer description
- */
-/**
+ *
  * dog_t - struct dog
  */
 struct dog
