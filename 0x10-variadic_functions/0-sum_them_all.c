@@ -11,6 +11,7 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
+<<<<<<< HEAD
 			va_list ap;
 			unsigned int i, sum = 0;
 
@@ -22,4 +23,13 @@ int sum_them_all(const unsigned int n, ...)
 						va_end(ap);
 
 ;
+=======
+va_list ap;
+unsigned int i, sum = 0;
+va_start(ap, n);
+for (i = 0; i < n; i++)
+sum += va_arg(ap, int);
+va_end(ap);
+return (sum);
+>>>>>>> 9de8c9d7e3e684bf376522041f5ed228718493fe
 }
