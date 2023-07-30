@@ -1,4 +1,4 @@
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
@@ -30,4 +30,5 @@ int main(void)
 							    printf("-> %lu elements\n", n);
 							        free(new->str);
 								    free(new);
-								        return (0);
+return (0);
+}
